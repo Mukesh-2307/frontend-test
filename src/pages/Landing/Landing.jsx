@@ -207,6 +207,8 @@ const Landing = () => {
                 </div>
                 <div className='flex justify-center items-center my-10'><BsThreeDots size={80}/></div>
             </div>
+
+            //todo: add footer
         </>
     )
 }
@@ -251,7 +253,6 @@ const TopSellingPlantsCard = ({ content }) => {
 }
 
 const ReviewCard = ({ content }) => {
-    console.log(content.src);
     return (
         <div className='h-[480px] w-[512px] flex flex-col justify-start items-start gap-10 border-2 border-gray-500 rounded-[48px] p-10 relative bg-white/10 backdrop-blur-[15px]'>
             <div className="absolute -top-[50px] left-1/2 -translate-x-1/2 w-[400px] h-[100px] bg-[#1c2416] border-b-4 border-gray-500 rounded-b-[90%]">

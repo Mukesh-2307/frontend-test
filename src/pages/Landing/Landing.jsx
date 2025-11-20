@@ -1,9 +1,10 @@
 import React from 'react'
-import Navbar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar';
 import { FaRegCirclePlay, FaStar, FaChevronRight, FaChevronLeft } from "react-icons/fa6";
 import { BsThreeDots } from "react-icons/bs";
 import { IoBagHandleOutline } from "react-icons/io5";
 import SectionTitle from '../../components/SectionTitle';
+import Footer from '../../components/Footer';
 
 const TrendyPlants = [
     {
@@ -205,10 +206,11 @@ const Landing = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center items-center my-10'><BsThreeDots size={80}/></div>
+                <div className='flex justify-center items-center my-10'><BsThreeDots size={80} /></div>
             </div>
 
-            //todo: add footer
+            <Footer />
+
         </>
     )
 }

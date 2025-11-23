@@ -87,42 +87,42 @@ const CustomerReviews = [
 const Landing = () => {
     return (
         <>
-            <div className="h-screen md:h-screen lg:h-[2529px] bg-[url('/hero-bg.png')] bg-cover bg-center lg:bg-cente lg:px-0 ">
-                <div className='md:max-w-[768px] lg:max-w-[1440px] mx-auto'>
+            <div className="h-screen md:h-[1800px] xl:h-[2529px] bg-[url('/hero-bg.png')] bg-cover bg-center xl:bg-cente xl:px-0 ">
+                <div className='md:max-w-[768px] xl:max-w-[1440px] mx-auto'>
 
                     <Navbar />
 
-                    <div className='flex flex-col items-center justify-end gap-40 md:relative h-[calc(100vh-40px-24px)] '>
+                    <div className='flex flex-col items-center md:justify-end gap-40 md:relative relative h-[calc(100vh-40px-24px)] '>
 
-                        <div className='max-w-[300px] md:max-w-[800px] md:flex flex-col items-start justify-between gap-10 md:gap-2 md:absolute md:top-20 md:left-10 md:bg-white/0 md:backdrop-blur-[0px] bg-white/10 backdrop-blur-[25px] md:border-0 border-2 rounded-[12px] border-gray-500 p-2'>
+                        <div className='max-w-[300px] md:max-w-[800px] md:flex flex-col items-start justify-between gap-10 md:gap-2 md:absolute absolute top-15 md:top-20 md:left-10 md:bg-white/0 md:backdrop-blur-[0px] bg-white/10 backdrop-blur-[25px] md:border-0 border-2 rounded-[12px] border-gray-500 p-2'>
 
-                            <h1 className='text-[28px] md:text-[118px]'>Earth’s Exhale</h1>
-                            <p className='text-[12px] md:text-[23px]'>"Earth Exhale" symbolizes the purity and vitality of the Earth's natural environment and its essential role in sustaining life.</p>
+                            <h1 className='text-[28px] md:text-[30px] xl:text-[118px]'>Earth’s Exhale</h1>
+                            <p className='text-[12px] md:text-[18px] md:max-w-[300px] xl:text-[23px] xl:max-w-full'>"Earth Exhale" symbolizes the purity and vitality of the Earth's natural environment and its essential role in sustaining life.</p>
                             <div className='flex justify-start md:justify-evenly items-center gap-4 mt-4 md:mt-0'>
-                                <button className='md:w-[217px] md:h-[64px] md:text-[28px] p-2 border-2 border-[#] rounded-[12px]'>Buy now</button>
-                                <FaRegCirclePlay className='size-[35px] md:size-[70px]' />
-                                <p className='md:text-[25px]'>
+                                <button className='xl:w-[217px] xl:h-[64px] xl:text-[28px] p-2 border-2 rounded-[12px]'>Buy now</button>
+                                <FaRegCirclePlay className='size-[35px] md:size-[40px] xl:size-[70px]' />
+                                <p className='md:text-[18px] xl:text-[25px]'>
                                     live demo...
                                 </p>
                             </div>
                         </div>
 
-                        <div className='md:absolute md:top-30 md:right-10 border-2 border-gray-500 flex flex-col justify-end items-center h-[300px] w-[250px] md:h-[644px] md:w-[512px] rounded-[45px] p-4 bg-white/10 backdrop-blur-[15px]'>
+                        <div className='absolute xl:top-30 xl:right-10 md:top-20 md:right-10 top-100 border-2 border-gray-500 flex flex-col justify-end items-center h-[300px] w-[250px] md:h-[344px] md:w-[312px] xl:h-[644px] xl:w-[512px] rounded-[45px] p-4 bg-white/10 backdrop-blur-[15px]'>
 
-                            <div className="absolute md:-top-[50px] md:left-1/2 md:-translate-x-1/2 -top-[30px] w-[170px] h-[70px] md:w-[400px] md:h-[100px] bg-[#192116] border-b-4 border-gray-500 rounded-b-[90%]">
+                            <div className="absolute xl:-top-[50px] xl:left-1/2 md:hidden xl:block xl:-translate-x-1/2 -top-[30px] w-[170px] h-[70px] md:w-[200px] md:h-[50px] xl:w-[400px] xl:h-[100px] bg-[#192116] border-b-4 border-gray-500 rounded-b-[90%]">
                             </div>
 
-                            <img src="/hero-plant-image.png" alt="plant-image" className='absolute -top-30 w-[250px] md:w-[459px] h-auto max-w-none' />
-                            <div className='flex flex-col justify-evenly items-start md:gap-2 md:w-[400px] w-[200px]'>
-                                <p className='text-[12px] md:text-[23px]'>Indoor Plant </p>
-                                <p className='text-[20px] font-bold md:text-[38px]'>Aglaonema plant</p>
+                            <img src="/hero-plant-image.png" alt="plant-image" className='absolute -top-30 md:-top-20 xl:-top-30 w-[250px] xl:w-[459px] h-auto max-w-none' />
+                            <div className='flex flex-col justify-evenly items-start md:gap-2 xl:w-[400px] md:w-[260px] w-[200px]'>
+                                <p className='text-[12px] xl:text-[23px]'>Indoor Plant </p>
+                                <p className='text-[20px] font-bold xl:text-[38px]'>Aglaonema plant</p>
                                 <FaChevronRight className='absolute right-2 md:right-10' />
-                                <button className='md:text-[28px] md:w-[217px] md:h-[64px] w-[170px] p-2 border-2 border-white rounded-[12px] mt-4'>Buy Now</button>
+                                <button className='xl:text-[28px] xl:w-[217px] xl:h-[64px] w-[170px] p-2 border-2 border-white rounded-[12px] mt-4'>Buy Now</button>
                             </div>
-                            <BsThreeDots className='mt-4 size-[25px] md:size-[50px]' />
+                            <BsThreeDots className='mt-4 size-[25px] xl:size-[50px]' />
                         </div>
 
-                        <div className='hidden md:absolute md:top-130 md:left-10 md:flex flex-col items-start max-w-[409px] min-h-[237px] border-2 border-gray-500 border-opacity-10 rounded-[45px] p-4 gap-4 bg-white/10 backdrop-blur-[15px]'>
+                        <div className='hidden md:absolute xl:top-130 xl:left-10 md:top-110 md:left-10 md:flex flex-col items-start max-w-[409px] min-h-[237px] border-2 border-gray-500 border-opacity-10 rounded-[45px] p-4 gap-4 bg-white/10 backdrop-blur-[15px]'>
                             <div className='flex justify-evenly items-center gap-[28px]'>
                                 <div className='rounded-full size-24 overflow-hidden'>
                                     <img src="/profile-image.png" alt="profile-image" />
@@ -159,11 +159,11 @@ const Landing = () => {
                         </div>
                     </div>
 
-                    <div className='md:px-0 py-10 lg:mt-40'>
+                    <div className='md:px-0 py-10 xl:mt-40'>
                         <div className='flex justify-center items-center'>
                             <SectionTitle title="Our Top Selling Plants" />
                         </div>
-                        <div className='grid grid-col-1 md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2 gap-y-20 lg:gap-y-40 gap-x-4'>
+                        <div className='grid grid-col-1 md:grid-cols-2 md:grid-rows-3 xl:grid-cols-3 xl:grid-rows-2 gap-y-20 xl:gap-y-40 md:gap-x-0 gap-x-4'>
                             {
                                 TopSellingPlants.map((cardContent, index) => {
                                     return (
@@ -178,7 +178,7 @@ const Landing = () => {
                         <div className='flex justify-center items-center'>
                             <SectionTitle title="Customer Reviews" />
                         </div>
-                        <div className='grid grid-col-1 gap-y-20 lg:grid-cols-3 lg:grid-rows-1 gap-4'>
+                        <div className='grid grid-col-1 gap-y-20 xl:grid-cols-3 xl:grid-rows-1 gap-4'>
                             {
                                 CustomerReviews.map((cardContent, index) => {
                                     return (
@@ -193,10 +193,10 @@ const Landing = () => {
                         <div className='flex justify-center items-center'>
                             <SectionTitle title="Our Best o2" />
                         </div>
-                        <div className='h-[575px] w-[300px] lg:w-[1420px] lg:h-[675px] flex justify-self-center items-center justify-end border-2 border-gray-500 rounded-[48px] p-2 relative bg-white/10 backdrop-blur-[15px] mt-10 md:mt-40'>
-                            <img src="/hero-plant-image.png" alt="card-image" className='md:size-[750px] absolute md:-top-30 -top-20 md:-left-10' />
+                        <div className='h-[575px] w-[300px] md:w-[730px] md:h-[1100px] xl:w-[1420px] xl:h-[675px] flex md:flex-col xl:flex-row justify-self-center items-center justify-end border-2 border-gray-500 rounded-[48px] p-2 md:p-6 relative bg-white/10 backdrop-blur-[15px] mt-10 md:mt-40'>
+                            <img src="/hero-plant-image.png" alt="card-image" className='md:size-[750px] absolute md:-top-50 xl:-top-30 -top-20 md:-left-10' />
                             <div className='flex flex-col gap-10 mt-40 md:mt-0'>
-                                <div className='flex flex-col gap-2 lg:gap-2 max-w-[700px]'>
+                                <div className='flex flex-col gap-2 xl:gap-2 max-w-[700px]'>
                                     <h1 className='text-[19px] md:text-[38px] font-bold'>
                                         We Have Small And Best O2 Plants Collection’s
                                     </h1>
@@ -226,13 +226,13 @@ const Landing = () => {
 
 const TrendyPlantsCard = ({ content, place }) => {
     return (
-        <div className={`flex flex-col md:flex md:flex-row md:gap-10 items-center justify-end lg:w-[1420px] h-[400px] lg:h-[526px] w-[300px] text-2xl border-2 border-gray-500 rounded-[48px] px-4 py-6 md:px-20 md:py-10 relative not-last:mb-40 ${place % 2 === 0 ? '' : "md:flex-row-reverse"} bg-white/10 backdrop-blur-[15px]`}>
+        <div className={`flex flex-col md:flex md:flex-row md:gap-10 items-center justify-end md:w-[740px] md:h-auto xl:w-[1420px] h-[400px] xl:h-[526px] w-[300px] text-2xl border-2 border-gray-500 rounded-[48px] px-4 py-6 md:px-20 md:py-10 relative not-last:mb-30 md:not-last:mb-20 xl:not-last:mb-40 ${place % 2 === 0 ? '' : "md:flex-row-reverse"} bg-white/10 backdrop-blur-[15px]`}>
 
-            <img src={content.src} alt="card-plant-image" className={` md:size-[732px] absolute -top-25 md:-top-50 ${place % 2 === 0 ? 'md:left-0' : "md:right-0"}`} />
-            <div className='card-info md:w-[670px] flex flex-col items-start justify-evenly md:gap-6 gap-4'>
-                <h1 className='text-[19px] md:text-[38px] font-bold'>{content.title}</h1>
-                <p className='text-[10px] md:text-[20px]'>{content.desc}</p>
-                <p className='text-[19px] md:text-[38px] font-bold'>Rs. {content.price}/-</p>
+            <img src={content.src} alt="card-plant-image" className={` md:size-[425px] xl:size-[732px] absolute -top-25 xl:-top-50 ${place % 2 === 0 ? 'md:left-0' : "md:right-0"}`} />
+            <div className='card-info md:w-[250px] xl:w-[670px] flex flex-col items-start justify-evenly md:gap-6 gap-4'>
+                <h1 className='text-[19px] xl:text-[38px] font-bold'>{content.title}</h1>
+                <p className='text-[10px] xl:text-[20px]'>{content.desc}</p>
+                <p className='text-[19px] xl:text-[38px] font-bold'>Rs. {content.price}/-</p>
                 <div className='flex gap-4'>
                     <button className='text-[14px] md:text-[28px] md:w-[217px] md:h-[64px] p-2 border-2 border-white rounded-[12px] mt-4 font-bold'>Explore</button>
                     <button className='p-2 border-2 w-15 border-white rounded-[12px] mt-4 flex justify-center items-center'><IoBagHandleOutline />
@@ -245,19 +245,20 @@ const TrendyPlantsCard = ({ content, place }) => {
 
 const TopSellingPlantsCard = ({ content }) => {
     return (
-        <div className='h-[400px] w-[300px] md:h-[644px] md:w-[460px] flex justify-self-center justify-end items-center flex-col border-2 border-gray-500 rounded-[48px] p-10 relative bg-white/10 backdrop-blur-[15px]'>
+        <div className='h-[400px] w-[300px] md:h-[444px] md:w-[360px] xl:h-[644px] xl:w-[460px] flex justify-self-center justify-end items-center flex-col border-2 border-gray-500 rounded-[48px] p-10 relative bg-white/10 backdrop-blur-[15px]'>
 
-            <div className="absolute md:-top-[50px] left-1/2 -translate-x-1/2 md:w-[300px] md:h-[100px] -top-[50px] w-[200px] h-[90px] bg-[#1c2416] border-b-4 border-gray-500 rounded-b-[90%]">
+            <div className="absolute xl:-top-[50px] left-1/2 -translate-x-1/2 xl:w-[300px] xl:h-[100px] md:w-[280px] -top-[50px] w-[200px] h-[90px] bg-[#1c2416] border-b-4 border-gray-500 rounded-b-[90%]">
             </div>
 
-            <img src={content.src} alt="plant-card-image" className='absolute -top-20 md:-top-30 h-auto max-w-none lg:size-[459px] size-[250px]' />
+            <img src={content.src} alt="plant-card-image" className='absolute -top-20 xl:-top-30 h-auto max-w-none md:size-[300px] xl:size-[459px] size-[250px]' />
+
             <div>
                 <div className='flex flex-col gap-2'>
-                    <h1 className='text-[19px] md:text-[38px] font-bold'>{content.title}</h1>
-                    <p className='text-[12px] md:text-[24px]/8'>{content.desc}</p>
+                    <h1 className='text-[19px] xl:text-[38px] font-bold'>{content.title}</h1>
+                    <p className='text-[12px] xl:text-[24px]/8'>{content.desc}</p>
                 </div>
                 <div className='flex justify-between items-center w-full mt-4'>
-                    <p className='text-[19px] md:text-[38px] font-bold'>Rs. {content.price}/-</p>
+                    <p className='text-[19px] xl:text-[38px] font-bold'>Rs. {content.price}/-</p>
                     <button className='md:p-2 border-2 size-[40px] md:size-15 border-white rounded-[5px] md:rounded-[12px] flex justify-center items-center'><IoBagHandleOutline className='size-[25px] md:size-[30px]' />
                     </button>
                 </div>
@@ -268,9 +269,9 @@ const TopSellingPlantsCard = ({ content }) => {
 
 const ReviewCard = ({ content }) => {
     return (
-        <div className='h-auto w-[300px] lg:h-[480px] lg:w-[460px] flex flex-col justify-self-center justify-start items-start gap-10 border-2 border-gray-500 rounded-[48px] p-4 md:p-0 lg:p-10 relative bg-white/10 backdrop-blur-[15px]'>
+        <div className='h-auto w-[300px] md:w-auto md:mx-4 xl:h-[480px] xl:w-[460px] flex flex-col justify-self-center justify-start items-start gap-10 border-2 border-gray-500 rounded-[48px] p-4 md:p-4 xl:p-10 relative bg-white/10 backdrop-blur-[15px]'>
 
-            <div className="absolute md:-top-[50px] left-1/2 -translate-x-1/2 md:w-[300px] md:h-[100px] -top-[40px] w-[200px] h-[80px] bg-[#1c2416] border-b-4 border-gray-500 rounded-b-[90%]">
+            <div className="absolute md:-top-[50px] left-1/2 -translate-x-1/2 xl:w-[300px] xl:h-[100px] md:w-[500px] md:h-[100px] -top-[40px] w-[200px] h-[80px] bg-[#1c2416] border-b-4 border-gray-500 rounded-b-[90%]">
             </div>
             <div className='flex gap-8 mt-10'>
                 <div className='rounded-full overflow-hidden flex justify-center items-center size-[88px]' style={{ backgroundImage: `url(${content.src})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundPosition: 'center' }}>

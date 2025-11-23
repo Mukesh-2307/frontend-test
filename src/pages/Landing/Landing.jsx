@@ -159,7 +159,7 @@ const Landing = () => {
                         </div>
                     </div>
 
-                    <div className='md:px-0 py-10'>
+                    <div className='md:px-0 py-10 lg:mt-40'>
                         <div className='flex justify-center items-center'>
                             <SectionTitle title="Our Top Selling Plants" />
                         </div>
@@ -193,10 +193,10 @@ const Landing = () => {
                         <div className='flex justify-center items-center'>
                             <SectionTitle title="Our Best o2" />
                         </div>
-                        <div className='h-[575px] w-[300px] lg:w-[1420px] flex justify-self-center items-center justify-end border-2 border-gray-500 rounded-[48px] p-2 relative bg-white/10 backdrop-blur-[15px] mt-10 md:mt-40'>
+                        <div className='h-[575px] w-[300px] lg:w-[1420px] lg:h-[675px] flex justify-self-center items-center justify-end border-2 border-gray-500 rounded-[48px] p-2 relative bg-white/10 backdrop-blur-[15px] mt-10 md:mt-40'>
                             <img src="/hero-plant-image.png" alt="card-image" className='md:size-[750px] absolute md:-top-30 -top-20 md:-left-10' />
                             <div className='flex flex-col gap-10 mt-40 md:mt-0'>
-                                <div className='flex flex-col gap-2 lg:gap-10 max-w-[700px]'>
+                                <div className='flex flex-col gap-2 lg:gap-2 max-w-[700px]'>
                                     <h1 className='text-[19px] md:text-[38px] font-bold'>
                                         We Have Small And Best O2 Plants Collection’s
                                     </h1>

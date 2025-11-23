@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+/* #root{
+    max-width: 1440px;
+    margin: 0 auto;
+} */
 
 body {
     background-color: #1B2316;
